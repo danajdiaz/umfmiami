@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+body{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	color: #A7A7A7;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+	background-color: #fff !important;
+	
+}
+.header-area.sticky .navbar-light{
+	background-color: #fff;
+}
+
+#ultra{
+	background-color:#020202;
+	
+}
+.section{
+	padding: 5% 0;
+	
+}
+.titulouno{
+	text-transform: uppercase;
+	text-align-last: center;
+	font-family: azonix;
+	font-size: 65px;
+	color: #E68712;
+	margin-bottom: 20px;
+}
+.titulodos{
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.titulo{
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #E68712;
+	padding-top: 15px;
+}
+.texto{
+	color: #fff;
+	padding: 0;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+.btn-morado {
+	margin-top: 20px;
+	background-color: #3F255E;
+	color: #fff;
+	font-family: azonix;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.btn-morado:hover {
+	border: 1px solid #fff;
+}
+
+.titleg {
+	color: #000;
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: azonix;
+	text-transform: uppercase;
+}
