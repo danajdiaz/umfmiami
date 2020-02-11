@@ -4,6 +4,7 @@ body{
 	font-size: 14px;
 	color: #A7A7A7;
 }
+
 .header-area.sticky {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 	width: 100%;
@@ -11,8 +12,7 @@ body{
     position: fixed;
     top: 0;
     z-index: 99;
-	background-color: #fff !important;
-	
+	background-color: #000 !important;
 }
 .header-area.sticky .navbar-light{
 	background-color: #fff;
@@ -27,9 +27,6 @@ body{
 	
 }
 
-.thelogo {
-	padding-left: 500px;
-}
 
 .titulodos{
 	font-size: 30px;
@@ -67,4 +64,93 @@ body{
 	margin-bottom: 30px;
 	font-family: 'Cabin', sans-serif;
 	text-transform: uppercase;
+}
+
+#dates {
+	background-color: #E68712;
+	padding: 5% 0;
+	padding-left: 20%;
+	color: #fff;
+}
+
+.btn-morado1 {
+	background-color: transparent;
+	color: #fff;
+	font-family: 'Cabin', sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.btn-morado1:hover {
+	border: 1px solid #fff;
+	background-color: #fff;
+}
+
+#thegallery i {
+	color: #000;
+	font-size: 50px;
+	padding-left: 48%;
+	margin-bottom: 15px;
+}
+
+.price {
+	border: 2px solid #DDDDDD;
+	background-color: #3F255E;
+	border-radius: 4px;
+	padding: 0 
+}
+
+.price h3{
+	font-size: 26px;
+	font-weight: 400;
+	text-align: center;
+	border-bottom: 1px solid #DDDDDD;
+	text-transform: uppercase;
+	padding: 15px 0;
+}
+
+.price h4{
+	font-size: 76px;
+	font-weight: 300;
+	text-align: center;
+	border-bottom: 1px solid #DDDDDD;
+	text-transform: uppercase;
+	padding: 5px 0;
+}
+
+.price .info{
+	padding: 10px;
+	text-align: center;
+}
+
+.price .info ul{
+	list-style: none;
+	padding: 0;
+	font-size: 16px;
+}
+
+
+.price li::before{
+	content: '\f00c';
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 600;
+	color: #B5B5B5;
+	display: inline;
+	padding-right: 5px;
+}
+
+#tickets {
+	color: #fff;
+	background-color: #DDDDDD;
+}
+
+#tickets h2{
+	color: #000;
+	margin-bottom: 20px;
+}
+
+footer{
+	background-color: #000;
+	color: #fff;
+	padding: 1% 0;
 }

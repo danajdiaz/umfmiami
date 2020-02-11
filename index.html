@@ -16,14 +16,46 @@
 	
 </head>
 
-    <body>
+    <body data-spy="scroll" data-target=".navbar">
+    
+	<header class="header-area">
+		<div class="container">
+			
+			
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				
+				
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav ml-auto">
+				  <li class="nav-item active">
+					<a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">DATES</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">TICKETS</a>
+				  </li>
+					<li class="nav-item">
+					<a class="nav-link" href="#">GALLERY</a>
+				  </li>
+				</ul>
+
+			  </div>
+			</nav>
+			
+		</div>
+	</header>
+	
 	<section id="ultra" class="section">
 	<div class="container-fluid">
 		
 		<img src="img/umflogo-01.png" class="img-fluid d-block m-auto wow pulse" data-wow-duration="1s" data-wow-delay="0s" alt="logo" width="300px">
 			
-			
-		<p class="texto text-center mt-2 wow pulse" data-wow-duration="2s" data-wow-delay="0s">March 21st & 22nd</p>
 		<div class="row mt-5">
 		<article class="col-md-6 col-sm-6 col-xs-12">
 			<img src="img/principal.jpg" alt="ultra" class="img-fluid">
@@ -78,11 +110,93 @@
 		</div>
 	
 	</section>
+		
+	<section id="dates">
+		<div class="container-fluid">
+		<div class="row">
+			<article class="col-md-6 col-sm-12">
+		<h3>Official dates: March 21st & 22nd</h3>
+			</article>
+			<article class="col-md-6 col-sm-12">
+		<a href="#" class="btn btn-light btn-morado1">Line Ups</a>
+			</article>
+			
+		</div>
+		</div>
+		</section>
+		
+		<section id="tickets" class="section">
+		<div class="container">
+			<h2 class="title text-center wow pulse" data-wow-duration="2s" data-wow-delay="0s">TICKETS</h2>
+			
+			<div class="row">
+				<article class="col-md-3 col-sm-6 col-xs-12">
+					<div class="price">
+						<h3>Ultra pass</h3>
+						<h4>$125</h4>
+					<div class="info">
+	
+						<ul>
+						<li>1 day pass</li>
+						<li>Restricted access</li>
+						</ul>
+						</div>
+					
+					</div>
+				</article>
+				<article class="col-md-3 col-sm-6 col-xs-12">
+					<div class="price">
+						<h3>Ultra silver</h3>
+						<h4>$150</h4>
+					<div class="info">
+				
+						<ul>
+						<li>1 day pass</li>
+						<li>Access to all areas</li>
+						
+						</ul>
+						</div>
+					
+					</div>
+				</article>
+				<article class="col-md-3 col-sm-6 col-xs-12">
+					<div class="price">
+						<h3>Ultra Premium</h3>
+						<h4>$175</h4>
+					<div class="info">
+					
+						<ul>
+						<li>2 days pass</li>
+						<li>Restricted access</li>
+						
+						</ul>
+						</div>
+					
+					</div>
+				</article>
+				<article class="col-md-3 col-sm-6 col-xs-12">
+					<div class="price">
+						<h3>Ultra GOLD</h3>
+						<h4>$200</h4>
+					<div class="info">
+				
+						<ul>
+						<li>2 days pass</li>
+						<li>Access to all areas</li>
+						
+						</ul>
+						</div>
+				
+					</div>
+				</article>
+			</div>
+		</div>
+	</section>
 	
 	<section id="thegallery" class="section">
 	<div class="container-fluid">
 		<h2 class="titleg  wow pulse" data-wow-duration="2s" data-wow-delay="0s">Our gallery</h2>
-		
+		<i class="fas fa-camera"></i>
 		<article class="app-carousel owl-carousel">
 			<div>
 			<img src="img/gallery1.jpg" class="img-fluid" alt="gallery1">
@@ -101,6 +215,7 @@
 		</div>
 	
 	</section>
+		
 		<footer>
 		<div class="container">
 			<p class="text-center">Copyright &copy;2020 - Diseño Web II</p>
